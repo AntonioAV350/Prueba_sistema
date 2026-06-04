@@ -1,0 +1,27 @@
+{
+  "name": "sistema-login-roles",
+  "version": "1.0.0",
+  "description": "Proyecto integral de inicio de sesión con roles",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "concurrently \"npm install --prefix backend\" \"npm install --prefix frontend\"",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}{
+  "name": "prueba_sistema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
